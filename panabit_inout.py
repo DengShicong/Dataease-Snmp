@@ -61,9 +61,9 @@ def job():
 
     # 数据库信息
     mysql_host = "10.10.10.244"
-    mysql_user = "root"
-    mysql_password = "Password123@mysql"
-    mysql_db = "ale"
+    mysql_user = "yourUserName"
+    mysql_password = "yourPassword"
+    mysql_db = "yourDbName"
     mysql_table = "panabit_inout"
 
     # 建立数据库连接
