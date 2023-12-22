@@ -12,9 +12,9 @@ class Connection:
 
     def __init__(self):
         self.smysql_host = "10.10.10.244"
-        self.mysql_user = "root"
-        self.mysql_password = "Password123@mysql"
-        self.mysql_db = "ale"
+        self.mysql_user = "yourUsername"
+        self.mysql_password = "yourDbPassword"
+        self.mysql_db = "yourDbName"
         self.mysql_table = "connect"
 
     ips_by_device_type = {
