@@ -1,0 +1,1 @@
+INSERT INTO `esr_health` (`ip`, `cpu_usage`, `mem_usage`, `session_num`, `cpu_temperature`, `power_state`, `forward_rate`, `mem_total`, `mem_free`) VALUES ('10.10.10.56', '1%', '41%', '15', '64', 'normal', '13kbps', '3592868kB', '384224kB');
