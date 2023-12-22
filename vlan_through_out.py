@@ -8,9 +8,9 @@ class VlanThroughOut:
 
     def __init__(self):
         self.mysql_host = "10.10.10.244"
-        self.mysql_user = "root"
-        self.mysql_password = "Password123@mysql"
-        self.mysql_db = "ale"
+        self.mysql_user = "yourUserName"
+        self.mysql_password = "yourPassword"
+        self.mysql_db = "yourDbName"
         self.mysql_table = "vlan_through_out"
     # 提供的IP地址
     ips_by_device_type = {
