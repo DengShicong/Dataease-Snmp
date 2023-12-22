@@ -10,9 +10,9 @@ class DeviceTime:
         # 连接数据库
         # 数据库信息
         self.smysql_host = "10.10.10.244"
-        self.mysql_user = "root"
-        self.mysql_password = "Password123@mysql"
-        self.mysql_db = "ale"
+        self.mysql_user = "yourUserName"
+        self.mysql_password = "yourPassword"
+        self.mysql_db = "yourDbName"
         self.mysql_table = "device_time"
 
     # 提供的IP地址
