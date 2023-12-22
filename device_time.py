@@ -105,4 +105,3 @@ class DeviceTime:
         finally:
             connection.close()
 
-        # 安排任务每五秒执行一次
