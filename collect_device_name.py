@@ -8,10 +8,10 @@ class CollectDeviceName:
 
 
     def __init__(self):
-        self.mysql_host = "10.10.10.244"
+        self.mysql_host = "db ip address"
         self.mysql_user = "root"
-        self.mysql_password = "Password123@mysql"
-        self.mysql_db = "ale"
+        self.mysql_password = "your passwd"
+        self.mysql_db = "yourDatabaseName"
         self.mysql_table = "assets_asset"
         self.community = "public"  # SNMP community字符串
 
